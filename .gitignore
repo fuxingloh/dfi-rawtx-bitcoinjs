@@ -1,0 +1,27 @@
+# IDE
+.vscode
+.idea
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# node_modules
+node_modules
+package-lock.json
+!/package-lock.json
+yarn.lock
+
+# dist & pack
+dist
+*.tgz
+lerna-debug.log
+coverage
+
+# typescript
+tsconfig.build.tsbuildinfo

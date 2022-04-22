@@ -1,0 +1,19 @@
+{
+  "name": "dfi-rawtx-bitcoinjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "author": "Fuxing Loh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^6.0.1"
+  }
+}
